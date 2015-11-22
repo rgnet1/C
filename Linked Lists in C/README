@@ -1,0 +1,14 @@
+/* NAME
+ * CMPS-12B/M
+ * Lab 7
+ *****************
+ * FILES:
+ * README -This file
+ * Makefile - Allows automation of building the c program
+ * list.c - c program
+ * BUGG - lists all buts that were found in the program
+ *    
+ * 
+ * 
+ *
+*/
