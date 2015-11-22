@@ -1,0 +1,14 @@
+/* NAME
+ * CMPS-12B/M
+ * Lab 6
+ *****************
+ * FILES:
+ * README -This file
+ * Makefile - Allows automation of building the c program
+ * queue.c - c program
+ * minunit.h
+ *    
+ * 
+ * 
+ *
+*/
