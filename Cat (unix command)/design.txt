@@ -1,0 +1,32 @@
+Ramzey Ghanaim						     
+							 
+							                            Lab 0 Design Document
+
+Description:
+			In this lab, we created a simple C program to replicate the functionality of the cat command in UNIX. The way we replicated the cat functionality was through system calls, not functions in the C library. 
+
+Process:
+		First I tested the cat commmand in UNIX with various parameters to see what I needed to achieve. Next, I will need two basic parts. One part would cover when the user enters nothing, I simply read what the user types in and output it when they hit the enter key. This process says infinite until CTRL+D is typed; at this point read () = 0. A buffer size to read is a necessary parameter for the read() and write() functions.
+
+		The second part involved taking in files as parameters, reading the contents, and outputting the content on the screen. If the user enters a file that does not exist, the program must display the file name and error. This can be accomplished with perror(filename). Afterwards, if there are more files to read, the program must continue to read and output their contents. To do this I would need 2 nested loops. one loop to go through all the arguments (files) and loop nested in this one to read all the contents of a file. Within this second loop, I would need to ensure the file exists and perror() if it does not.
+
+		After looking at all the man pages for the system calls I needed (read(), write()) I started by importing the necessary headers. After this, and making this design document, I did the following:
+
+Pseudo Code:
+		if(no args)
+			while(true){
+				t = read() // if read() <= 0, then CTRL+D was hit or error occured
+				if (t == 0)
+					quit
+				write()
+
+		for(each arg)
+			x = open(file) //if write <0, no file exits
+			if(x< 0)
+				perror(file)
+			else
+				read(file)
+				write()
+
+		
+	
