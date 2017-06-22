@@ -1,0 +1,35 @@
+/* Ramzey Ghanaim
+ * Graph Theory
+ *****************
+ *                        PURPOSE:
+ *
+ * The purpose of this program is to implement a Graph ADT and 
+ * compute Breath First Search and finding Shortest Paths in 
+ * Graphs. Graphs are submitted to the program as an input file
+ *
+ *                        FILES:
+ *
+ * README - this file
+ *
+ * Makefile - File used for automating the build process
+ *
+ * List.c - List ADT
+ *
+ * List.h - List header file
+ *
+ * FindPath.c - main program, takes input file and creates
+ *              a graph and outputs the paths vertecies have
+ *              to a new file
+ *
+ * Graph.h -  Graph header file
+ *
+ * Graph.c - Graph ADT
+ *
+ * GraphTest.c - Tester file for Graph ADT
+ *
+ *            
+ *                       
+ * 
+ * 
+ *
+*/
