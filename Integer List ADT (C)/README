@@ -1,0 +1,21 @@
+/* Ramzey Ghanaim
+ *****************
+ * FILES:
+ *
+ * README - this file
+ *
+ * Makefile - File used for automating the build process
+ *
+ * List.c - List ADT
+ *
+ * List.h - List header file
+ *
+ * ListClient.c - provided tester program to test List.java
+ *
+ * Lex.c -  Tester program that takes in a file,
+ I                      and indirectly sorts the contents
+ *                      with the List ADT 
+ * 
+ * 
+ *
+*/
