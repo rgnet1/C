@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
-
+//             Hamming Distance
+// This small program calcuates the hamming distance of 
+// two numbers and prints the result to the terminal.
 int hamming_distance(unsigned int num1, unsigned int num2);
 int main(int argc, char const *argv[])
 {
@@ -11,6 +13,10 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
+
+                //Hamming Distance
+//This function returns 1 if the hamming distance is 1 or 0.
+//If the hamming distance is greator than 1, then return 0.
 int hamming_distance(unsigned int num1, unsigned int num2){
 	//returns 1 if num1 and num2 have a hamming distance <=1
 	// 0 otherwise
