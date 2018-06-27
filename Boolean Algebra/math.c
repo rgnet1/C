@@ -4,6 +4,7 @@
 #include<string.h>
 #include<unistd.h>
 
+//truth Table prototype
 char *truthTable(char * expr);
 
 // A structure to represent a stack
