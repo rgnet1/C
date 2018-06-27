@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<errno.h>
 #include<string.h>
-#include<unistd.h>
+//#include<unistd.h>
 
 //truth Table prototype
 char *truthTable(char * expr);
