@@ -1,16 +1,21 @@
 //         mycat.c
 //
-//@author: Ramzey Ghanaim
-//@CruzID: rghanaim
-//@ID: 1395938
-//@assignment: asgn0
+// This program replicates the LINUX
+// "cat" command using system calls
+//
+// @author: Ramzey Ghanaim
 
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
-#include <fcntl.h> //used for system calls: read() write() open() close()
+
+//used for system calls: read() write() open() close()
+#include <fcntl.h>
+
 #include <stdlib.h>
-#include <stdbool.h>// allows "while(true)"
+
+// allows "while(true)"
+#include <stdbool.h>
 
 int main(int argc, char* argv[]){
 //check for correct usage
